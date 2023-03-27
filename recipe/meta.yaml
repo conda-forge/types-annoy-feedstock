@@ -1,5 +1,5 @@
 {% set name = "types-annoy" %}
-{% set version = "1.17.8.2" %}
+{% set version = "1.17.8.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-annoy-{{ version }}.tar.gz
-  sha256: 853a5dbcc8df3e437f9de3b6e0ebd26104e4f815a917e3a5d35ab1e06b24cfb9
+  sha256: 07e3d09cb3639d9ffff17858432a7a201caa52786f3766f5248f33ddc88cb3d9
 
 build:
   number: 0
